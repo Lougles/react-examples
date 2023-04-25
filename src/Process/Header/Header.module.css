@@ -1,0 +1,27 @@
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+}
+
+.LeftContainer {
+    max-height: 40px;
+    margin-right: 40px;
+}
+
+.Nav {
+    max-height: 40px;
+}
+
+.NavList {
+    display: flex;
+}
+
+.NavItem {
+    margin-right: 10px;
+}
