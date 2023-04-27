@@ -1,12 +1,14 @@
 import React from 'react';
+import styles from './Success.module.scss'
+import InviteBtn from "../../../Shared/ui/Invites/InviteBtn";
 
 export const Success = ({ count }) => {
   return (
-    <div class="success-block">
+    <div className={styles.successBlock}>
       <img src="/assets/success.svg" alt="Success" />
       <h3>Успешно!</h3>
       <p>Всем {count} пользователям отправлено приглашение.</p>
-      <button className="send-invite-btn">Назад</button>
+      <InviteBtn>Назад</InviteBtn>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import ContentLoader from 'react-content-loader';
+import styles from './Skeleton.module.scss'
 export const Skeleton = () => (
   <ContentLoader
     speed={2}

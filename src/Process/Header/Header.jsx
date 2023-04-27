@@ -12,6 +12,7 @@ export const Header = () => {
         <ul className={styles.NavList}>
           <li className={styles.NavItem}><a href="/task/quizTask">Quiz</a></li>
           <li className={styles.NavItem}><a href="/task/modalTask">Modal</a></li>
+          <li className={styles.NavItem}><a href="/task/inviteList">Invite</a></li>
         </ul>
       </nav>
     </header>
